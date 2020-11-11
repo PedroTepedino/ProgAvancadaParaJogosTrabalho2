@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: window
-  m_Shader: {fileID: 4800000, guid: 0ec9f084a97d6e64698a83c2893a4e25, type: 3}
-  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _METALLICGLOSSMAP
+  m_Name: New Material
+  m_Shader: {fileID: 4800000, guid: 4ea94a2b9874eb941bd5efce8dc6aeaf, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -35,20 +35,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _DirtTexture:
-        m_Texture: {fileID: 2800000, guid: 52883774a0a5aa644bafc3518895a4a5, type: 3}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 343596706f539db458d30dcc935523b4, type: 3}
-        m_Scale: {x: 1, y: 1}
+    - _Lines:
+        m_Texture: {fileID: 2800000, guid: 9dba11f1cac6d304e8f30cce16210689, type: 3}
+        m_Scale: {x: 16, y: 16}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 52f89a41c5c9f1b4280ba2133f0bf7b0, type: 3}
-        m_Scale: {x: 0.33, y: 0.7}
-        m_Offset: {x: 0.27, y: 0.01}
+        m_Texture: {fileID: 8400000, guid: 674c9373590e46647979f802c7b2f594, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: c4d2256bf54ca0948bc30a5cc74fb153, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -59,48 +59,39 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _RefractionTex:
-        m_Texture: {fileID: 2800000, guid: ff4056e905427954f85d871a107e50e2, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_2416:
-        m_Texture: {fileID: 2800000, guid: ff4056e905427954f85d871a107e50e2, type: 3}
-        m_Scale: {x: 1, y: 1}
+    - _node_902:
+        m_Texture: {fileID: 2800000, guid: 9dba11f1cac6d304e8f30cce16210689, type: 3}
+        m_Scale: {x: 64, y: 64}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _Desaturation: 0.761
     - _DetailNormalMapScale: 1
-    - _DstBlend: 10
-    - _EmissionIntensity: 0.44
+    - _DstBlend: 0
+    - _FresnelPower: 2.782609
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HorizontalStripe: 0
+    - _Intensity: 3.55
     - _Metallic: 0
-    - _Mode: 3
+    - _Mode: 0
     - _OcclusionStrength: 1
-    - _OpacityIntencity: 1
     - _Parallax: 0.02
-    - _Refraction: 0
-    - _RefractionMultiplier: 0.064
+    - _Saturation: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SquareMultiplier: 38.7
-    - _SquareRaidus: 42.65
     - _SrcBlend: 1
     - _UVSec: 0
-    - _VerticalStripe: -0.04
-    - _ZWrite: 0
-    - _node_3953: 2.361012
-    - _node_4718: 0.8
-    - _node_5589: 76.3
-    - _node_5943: 0
-    - _node_6203: 0.8622914
-    - _radius: 0.703
+    - _ZWrite: 1
+    - _node_2341: 2
+    - _node_3478: 0
+    - _node_3789: 30
+    - _node_4743: 0
+    - _node_4967: 0
+    - _node_9871: 10
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DirtColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RefractionDir: {r: 0, g: 0, b: 0, a: 0}
-    - _RefractionUvRemap: {r: 0, g: 1, b: -2, a: 2}
+    - _NoiseRemap: {r: 0, g: 1, b: 0, a: 1}
+    - _node_4472: {r: 0, g: 1, b: 0, a: 1}
