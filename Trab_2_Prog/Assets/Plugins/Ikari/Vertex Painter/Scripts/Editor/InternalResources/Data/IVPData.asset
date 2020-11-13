@@ -19,7 +19,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 55
   erase: 0
-  primaryColor: {r: 0, g: 1, b: 0, a: 0}
+  primaryColor: {r: 1, g: 0, b: 0, a: 1}
   secondaryColor: {r: 0, g: 0, b: 0, a: 0}
   brushSize: 2
   brushHardness: 0
@@ -32,6 +32,6 @@ MonoBehaviour:
   aChannel: 1
   handleColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   outlineHandleColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  solidHandle: 0
+  solidHandle: 1
   drawHandleOutline: 0
   drawHandleAngle: 0
