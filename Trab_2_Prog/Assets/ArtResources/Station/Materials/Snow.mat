@@ -13,7 +13,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -39,6 +39,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 100, y: 100}
         m_Offset: {x: 0, y: 0}
+    - _Foam:
+        m_Texture: {fileID: 2800000, guid: aa97e7a1826ec8d4f8907e29004a7de4, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: eec7f66fcf5f25d41aac8435f9db1cd0, type: 3}
         m_Scale: {x: 100, y: 100}
@@ -59,11 +63,26 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _node_307:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_834:
+        m_Texture: {fileID: 2800000, guid: aa97e7a1826ec8d4f8907e29004a7de4, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _: 0
     - _BumpScale: 0.08
     - _Cutoff: 0.5
+    - _DeepDepth: 20
     - _DetailNormalMapScale: 1
+    - _Distance: 10.1
     - _DstBlend: 0
+    - _Emission: 0.04
+    - _Exponensial: 0.78
+    - _FoamDepth: 0.55
+    - _ForceTesselation: 10
     - _Frequency: 0.19
     - _GlossMapScale: 1
     - _Glossiness: 0
@@ -71,27 +90,44 @@ Material:
     - _Legth: -1.5
     - _Length: 2.59
     - _Metallic: 0
+    - _MinOpacity: 0.037
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _Opacity: 0.649
+    - _OpacityDepth: 0.13
     - _Parallax: 0.08
+    - _Radius: 6.24
     - _SmoothnessTextureChannel: 0
+    - _SpecialTecelation: 904.1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Tesselation: 50
+    - _Tesselation: 46.84
+    - _Tesselation_copy: 10
     - _TimeMultipleire: 0.51
     - _UVSec: 0
-    - _WaveIntensity: 0.014
+    - _WaveIntensity: 0.01
     - _ZWrite: 1
+    - _depth: 0.63
     - _height: 0.58
-    - _inclination: 2.05
+    - _inclination: 0.33
     - _leght: 1.1
+    - _node_1024: 187.6
     - _node_1706: 0.98
+    - _node_3900: 1
     - _node_6783: 1
+    - _node_6908: 0.648
+    - _node_6912: 1
     - _node_9478: 0.49
     - _node_9478_copy: 1.22
     - _node_9905: 0.47
     - _sin: 0.12
-    - _sinMultiplier: 0.76
+    - _sinMultiplier: 0.48
     m_Colors:
-    - _Color: {r: 0.15927804, g: 0, b: 0.5849056, a: 1}
+    - _Color: {r: 0, g: 0.11761506, b: 0.7921569, a: 1}
+    - _DepthColor: {r: 0.08456681, g: 0, b: 0.24705882, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamCollor: {r: 4, g: 4, b: 4, a: 1}
+    - _Force: {r: 0, g: 0, b: 0, a: 0}
+    - _Point: {r: 30.11, g: 40.7, b: 30.6, a: 0}
+    - _node_1135: {r: 0.04563646, g: 0, b: 0.3584906, a: 1}
+    - _node_4264: {r: 1, g: 0, b: 0, a: 1}

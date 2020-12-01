@@ -1,15 +1,15 @@
 // Shader created with Shader Forge v1.40 
 // Shader Forge (c) Freya Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.40;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,cpap:True,lico:1,lgpr:1,limd:1,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:4013,x:32719,y:32712,varname:node_4013,prsc:2|diff-5410-OUT,spec-7233-OUT,gloss-6583-OUT;n:type:ShaderForge.SFN_Color,id:1304,x:32222,y:32496,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_1304,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:1,c3:1,c4:1;n:type:ShaderForge.SFN_Tex2d,id:5047,x:32222,y:32662,ptovrint:False,ptlb:MaiunTex,ptin:_MaiunTex,varname:node_5047,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:dfcd4dcb2145c6d4f9da3e7654d22d9e,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Multiply,id:5410,x:32397,y:32662,varname:node_5410,prsc:2|A-1304-RGB,B-5047-RGB;n:type:ShaderForge.SFN_LightVector,id:477,x:31617,y:32625,varname:node_477,prsc:2;n:type:ShaderForge.SFN_NormalVector,id:6627,x:31606,y:32809,prsc:2,pt:False;n:type:ShaderForge.SFN_Dot,id:1909,x:31797,y:32809,varname:node_1909,prsc:2,dt:0|A-477-OUT,B-6627-OUT;n:type:ShaderForge.SFN_Multiply,id:7233,x:32106,y:32816,varname:node_7233,prsc:2|A-1868-RGB,B-1909-OUT,C-6905-OUT;n:type:ShaderForge.SFN_Color,id:1868,x:31797,y:32625,ptovrint:False,ptlb:node_1868,ptin:_node_1868,varname:node_1868,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:1,c3:1,c4:1;n:type:ShaderForge.SFN_ValueProperty,id:6905,x:31797,y:32992,ptovrint:False,ptlb:SpecularIntensity,ptin:_SpecularIntensity,varname:node_6905,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:1;n:type:ShaderForge.SFN_ValueProperty,id:6583,x:32268,y:33041,ptovrint:False,ptlb:node_6583,ptin:_node_6583,varname:node_6583,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0;proporder:1304-5047-1868-6905-6583;pass:END;sub:END;*/
+/*SF_DATA;ver:1.40;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,cpap:True,lico:1,lgpr:1,limd:3,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:4013,x:32719,y:32712,varname:node_4013,prsc:2|diff-5410-OUT,spec-5607-OUT,gloss-6583-OUT;n:type:ShaderForge.SFN_Color,id:1304,x:32222,y:32496,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_1304,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:1,c3:1,c4:1;n:type:ShaderForge.SFN_Tex2d,id:5047,x:32222,y:32662,ptovrint:False,ptlb:MaiunTex,ptin:_MaiunTex,varname:node_5047,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:dfcd4dcb2145c6d4f9da3e7654d22d9e,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Multiply,id:5410,x:32397,y:32662,varname:node_5410,prsc:2|A-1304-RGB,B-5047-RGB;n:type:ShaderForge.SFN_ValueProperty,id:6583,x:32289,y:33113,ptovrint:False,ptlb:Gloss,ptin:_Gloss,varname:node_6583,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0;n:type:ShaderForge.SFN_Tex2d,id:8357,x:32289,y:32837,ptovrint:False,ptlb:MetalicTexture,ptin:_MetalicTexture,varname:node_8357,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:5ef1ecb17b682174ebbeed9a9d7af166,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Multiply,id:5607,x:32461,y:32798,varname:node_5607,prsc:2|A-8357-R,B-4884-OUT;n:type:ShaderForge.SFN_ValueProperty,id:4884,x:32289,y:33015,ptovrint:False,ptlb:MetalicValue,ptin:_MetalicValue,varname:node_4884,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:1;proporder:1304-5047-6583-8357-4884;pass:END;sub:END;*/
 
 Shader "Shader Forge/BasicShader" {
     Properties {
         _Color ("Color", Color) = (1,1,1,1)
         _MaiunTex ("MaiunTex", 2D) = "white" {}
-        _node_1868 ("node_1868", Color) = (1,1,1,1)
-        _SpecularIntensity ("SpecularIntensity", Float ) = 1
-        _node_6583 ("node_6583", Float ) = 0
+        _Gloss ("Gloss", Float ) = 0
+        _MetalicTexture ("MetalicTexture", 2D) = "white" {}
+        _MetalicValue ("MetalicValue", Float ) = 1
     }
     SubShader {
         Tags {
@@ -28,16 +28,17 @@ Shader "Shader Forge/BasicShader" {
             #pragma multi_compile_instancing
             #include "UnityCG.cginc"
             #include "AutoLight.cginc"
+            #include "UnityPBSLighting.cginc"
+            #include "UnityStandardBRDF.cginc"
             #pragma multi_compile_fwdbase_fullshadows
             #pragma multi_compile_fog
             #pragma target 3.0
-            uniform float4 _LightColor0;
             uniform sampler2D _MaiunTex; uniform float4 _MaiunTex_ST;
+            uniform sampler2D _MetalicTexture; uniform float4 _MetalicTexture_ST;
             UNITY_INSTANCING_BUFFER_START( Props )
                 UNITY_DEFINE_INSTANCED_PROP( float4, _Color)
-                UNITY_DEFINE_INSTANCED_PROP( float4, _node_1868)
-                UNITY_DEFINE_INSTANCED_PROP( float, _SpecularIntensity)
-                UNITY_DEFINE_INSTANCED_PROP( float, _node_6583)
+                UNITY_DEFINE_INSTANCED_PROP( float, _Gloss)
+                UNITY_DEFINE_INSTANCED_PROP( float, _MetalicValue)
             UNITY_INSTANCING_BUFFER_END( Props )
             struct VertexInput {
                 UNITY_VERTEX_INPUT_INSTANCE_ID
@@ -72,31 +73,79 @@ Shader "Shader Forge/BasicShader" {
                 i.normalDir = normalize(i.normalDir);
                 float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
                 float3 normalDirection = i.normalDir;
+                float3 viewReflectDirection = reflect( -viewDirection, normalDirection );
                 float3 lightDirection = normalize(_WorldSpaceLightPos0.xyz);
                 float3 lightColor = _LightColor0.rgb;
                 float3 halfDirection = normalize(viewDirection+lightDirection);
 ////// Lighting:
                 float attenuation = LIGHT_ATTENUATION(i);
                 float3 attenColor = attenuation * _LightColor0.xyz;
+                float Pi = 3.141592654;
+                float InvPi = 0.31830988618;
 ///////// Gloss:
-                float _node_6583_var = UNITY_ACCESS_INSTANCED_PROP( Props, _node_6583 );
-                float gloss = _node_6583_var;
+                float _Gloss_var = UNITY_ACCESS_INSTANCED_PROP( Props, _Gloss );
+                float gloss = _Gloss_var;
+                float perceptualRoughness = 1.0 - _Gloss_var;
+                float roughness = perceptualRoughness * perceptualRoughness;
                 float specPow = exp2( gloss * 10.0 + 1.0 );
+/////// GI Data:
+                UnityLight light;
+                #ifdef LIGHTMAP_OFF
+                    light.color = lightColor;
+                    light.dir = lightDirection;
+                    light.ndotl = LambertTerm (normalDirection, light.dir);
+                #else
+                    light.color = half3(0.f, 0.f, 0.f);
+                    light.ndotl = 0.0f;
+                    light.dir = half3(0.f, 0.f, 0.f);
+                #endif
+                UnityGIInput d;
+                d.light = light;
+                d.worldPos = i.posWorld.xyz;
+                d.worldViewDir = viewDirection;
+                d.atten = attenuation;
+                Unity_GlossyEnvironmentData ugls_en_data;
+                ugls_en_data.roughness = 1.0 - gloss;
+                ugls_en_data.reflUVW = viewReflectDirection;
+                UnityGI gi = UnityGlobalIllumination(d, 1, normalDirection, ugls_en_data );
+                lightDirection = gi.light.dir;
+                lightColor = gi.light.color;
 ////// Specular:
                 float NdotL = saturate(dot( normalDirection, lightDirection ));
-                float4 _node_1868_var = UNITY_ACCESS_INSTANCED_PROP( Props, _node_1868 );
-                float _SpecularIntensity_var = UNITY_ACCESS_INSTANCED_PROP( Props, _SpecularIntensity );
-                float3 specularColor = (_node_1868_var.rgb*dot(lightDirection,i.normalDir)*_SpecularIntensity_var);
-                float3 directSpecular = attenColor * pow(max(0,dot(halfDirection,normalDirection)),specPow)*specularColor;
+                float LdotH = saturate(dot(lightDirection, halfDirection));
+                float4 _MetalicTexture_var = tex2D(_MetalicTexture,TRANSFORM_TEX(i.uv0, _MetalicTexture));
+                float _MetalicValue_var = UNITY_ACCESS_INSTANCED_PROP( Props, _MetalicValue );
+                float3 specularColor = (_MetalicTexture_var.r*_MetalicValue_var);
+                float specularMonochrome;
+                float4 _Color_var = UNITY_ACCESS_INSTANCED_PROP( Props, _Color );
+                float4 _MaiunTex_var = tex2D(_MaiunTex,TRANSFORM_TEX(i.uv0, _MaiunTex));
+                float3 diffuseColor = (_Color_var.rgb*_MaiunTex_var.rgb); // Need this for specular when using metallic
+                diffuseColor = DiffuseAndSpecularFromMetallic( diffuseColor, specularColor, specularColor, specularMonochrome );
+                specularMonochrome = 1.0-specularMonochrome;
+                float NdotV = abs(dot( normalDirection, viewDirection ));
+                float NdotH = saturate(dot( normalDirection, halfDirection ));
+                float VdotH = saturate(dot( viewDirection, halfDirection ));
+                float visTerm = SmithJointGGXVisibilityTerm( NdotL, NdotV, roughness );
+                float normTerm = GGXTerm(NdotH, roughness);
+                float specularPBL = (visTerm*normTerm) * UNITY_PI;
+                #ifdef UNITY_COLORSPACE_GAMMA
+                    specularPBL = sqrt(max(1e-4h, specularPBL));
+                #endif
+                specularPBL = max(0, specularPBL * NdotL);
+                #if defined(_SPECULARHIGHLIGHTS_OFF)
+                    specularPBL = 0.0;
+                #endif
+                specularPBL *= any(specularColor) ? 1.0 : 0.0;
+                float3 directSpecular = attenColor*specularPBL*FresnelTerm(specularColor, LdotH);
                 float3 specular = directSpecular;
 /////// Diffuse:
                 NdotL = max(0.0,dot( normalDirection, lightDirection ));
-                float3 directDiffuse = max( 0.0, NdotL) * attenColor;
+                half fd90 = 0.5 + 2 * LdotH * LdotH * (1-gloss);
+                float nlPow5 = Pow5(1-NdotL);
+                float nvPow5 = Pow5(1-NdotV);
+                float3 directDiffuse = ((1 +(fd90 - 1)*nlPow5) * (1 + (fd90 - 1)*nvPow5) * NdotL) * attenColor;
                 float3 indirectDiffuse = float3(0,0,0);
                 indirectDiffuse += UNITY_LIGHTMODEL_AMBIENT.rgb; // Ambient Light
-                float4 _Color_var = UNITY_ACCESS_INSTANCED_PROP( Props, _Color );
-                float4 _MaiunTex_var = tex2D(_MaiunTex,TRANSFORM_TEX(i.uv0, _MaiunTex));
-                float3 diffuseColor = (_Color_var.rgb*_MaiunTex_var.rgb);
                 float3 diffuse = (directDiffuse + indirectDiffuse) * diffuseColor;
 /// Final Color:
                 float3 finalColor = diffuse + specular;
@@ -120,16 +169,17 @@ Shader "Shader Forge/BasicShader" {
             #pragma multi_compile_instancing
             #include "UnityCG.cginc"
             #include "AutoLight.cginc"
+            #include "UnityPBSLighting.cginc"
+            #include "UnityStandardBRDF.cginc"
             #pragma multi_compile_fwdadd_fullshadows
             #pragma multi_compile_fog
             #pragma target 3.0
-            uniform float4 _LightColor0;
             uniform sampler2D _MaiunTex; uniform float4 _MaiunTex_ST;
+            uniform sampler2D _MetalicTexture; uniform float4 _MetalicTexture_ST;
             UNITY_INSTANCING_BUFFER_START( Props )
                 UNITY_DEFINE_INSTANCED_PROP( float4, _Color)
-                UNITY_DEFINE_INSTANCED_PROP( float4, _node_1868)
-                UNITY_DEFINE_INSTANCED_PROP( float, _SpecularIntensity)
-                UNITY_DEFINE_INSTANCED_PROP( float, _node_6583)
+                UNITY_DEFINE_INSTANCED_PROP( float, _Gloss)
+                UNITY_DEFINE_INSTANCED_PROP( float, _MetalicValue)
             UNITY_INSTANCING_BUFFER_END( Props )
             struct VertexInput {
                 UNITY_VERTEX_INPUT_INSTANCE_ID
@@ -170,23 +220,48 @@ Shader "Shader Forge/BasicShader" {
 ////// Lighting:
                 float attenuation = LIGHT_ATTENUATION(i);
                 float3 attenColor = attenuation * _LightColor0.xyz;
+                float Pi = 3.141592654;
+                float InvPi = 0.31830988618;
 ///////// Gloss:
-                float _node_6583_var = UNITY_ACCESS_INSTANCED_PROP( Props, _node_6583 );
-                float gloss = _node_6583_var;
+                float _Gloss_var = UNITY_ACCESS_INSTANCED_PROP( Props, _Gloss );
+                float gloss = _Gloss_var;
+                float perceptualRoughness = 1.0 - _Gloss_var;
+                float roughness = perceptualRoughness * perceptualRoughness;
                 float specPow = exp2( gloss * 10.0 + 1.0 );
 ////// Specular:
                 float NdotL = saturate(dot( normalDirection, lightDirection ));
-                float4 _node_1868_var = UNITY_ACCESS_INSTANCED_PROP( Props, _node_1868 );
-                float _SpecularIntensity_var = UNITY_ACCESS_INSTANCED_PROP( Props, _SpecularIntensity );
-                float3 specularColor = (_node_1868_var.rgb*dot(lightDirection,i.normalDir)*_SpecularIntensity_var);
-                float3 directSpecular = attenColor * pow(max(0,dot(halfDirection,normalDirection)),specPow)*specularColor;
+                float LdotH = saturate(dot(lightDirection, halfDirection));
+                float4 _MetalicTexture_var = tex2D(_MetalicTexture,TRANSFORM_TEX(i.uv0, _MetalicTexture));
+                float _MetalicValue_var = UNITY_ACCESS_INSTANCED_PROP( Props, _MetalicValue );
+                float3 specularColor = (_MetalicTexture_var.r*_MetalicValue_var);
+                float specularMonochrome;
+                float4 _Color_var = UNITY_ACCESS_INSTANCED_PROP( Props, _Color );
+                float4 _MaiunTex_var = tex2D(_MaiunTex,TRANSFORM_TEX(i.uv0, _MaiunTex));
+                float3 diffuseColor = (_Color_var.rgb*_MaiunTex_var.rgb); // Need this for specular when using metallic
+                diffuseColor = DiffuseAndSpecularFromMetallic( diffuseColor, specularColor, specularColor, specularMonochrome );
+                specularMonochrome = 1.0-specularMonochrome;
+                float NdotV = abs(dot( normalDirection, viewDirection ));
+                float NdotH = saturate(dot( normalDirection, halfDirection ));
+                float VdotH = saturate(dot( viewDirection, halfDirection ));
+                float visTerm = SmithJointGGXVisibilityTerm( NdotL, NdotV, roughness );
+                float normTerm = GGXTerm(NdotH, roughness);
+                float specularPBL = (visTerm*normTerm) * UNITY_PI;
+                #ifdef UNITY_COLORSPACE_GAMMA
+                    specularPBL = sqrt(max(1e-4h, specularPBL));
+                #endif
+                specularPBL = max(0, specularPBL * NdotL);
+                #if defined(_SPECULARHIGHLIGHTS_OFF)
+                    specularPBL = 0.0;
+                #endif
+                specularPBL *= any(specularColor) ? 1.0 : 0.0;
+                float3 directSpecular = attenColor*specularPBL*FresnelTerm(specularColor, LdotH);
                 float3 specular = directSpecular;
 /////// Diffuse:
                 NdotL = max(0.0,dot( normalDirection, lightDirection ));
-                float3 directDiffuse = max( 0.0, NdotL) * attenColor;
-                float4 _Color_var = UNITY_ACCESS_INSTANCED_PROP( Props, _Color );
-                float4 _MaiunTex_var = tex2D(_MaiunTex,TRANSFORM_TEX(i.uv0, _MaiunTex));
-                float3 diffuseColor = (_Color_var.rgb*_MaiunTex_var.rgb);
+                half fd90 = 0.5 + 2 * LdotH * LdotH * (1-gloss);
+                float nlPow5 = Pow5(1-NdotL);
+                float nvPow5 = Pow5(1-NdotV);
+                float3 directDiffuse = ((1 +(fd90 - 1)*nlPow5) * (1 + (fd90 - 1)*nvPow5) * NdotL) * attenColor;
                 float3 diffuse = directDiffuse * diffuseColor;
 /// Final Color:
                 float3 finalColor = diffuse + specular;

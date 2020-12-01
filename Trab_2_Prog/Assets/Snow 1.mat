@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snow 1
+  m_Shader: {fileID: 4800000, guid: 0588c3a42c883cb43a9f219821c5acc4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: aa97e7a1826ec8d4f8907e29004a7de4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: eec7f66fcf5f25d41aac8435f9db1cd0, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 14251f000df07574a9a3a0301612a871, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _: 0
+    - _BumpScale: 0.08
+    - _Cutoff: 0.5
+    - _DeepDepth: 0
+    - _DetailNormalMapScale: 1
+    - _Distance: 10.1
+    - _DstBlend: 0
+    - _Emission: 0.27
+    - _Exponencial: 0.37
+    - _Exponensial: 0.11
+    - _FoamDepth: 0.55
+    - _Frequency: 0.19
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Legth: -1.5
+    - _Length: 2.59
+    - _Metallic: 0
+    - _MinOpacity: 0.037
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Opacity: 1
+    - _Parallax: 0.08
+    - _Radius: 10
+    - _SmoothnessTextureChannel: 0
+    - _SpecialTecelation: 904.1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Tesselation: 20
+    - _Tesselation_copy: 10
+    - _TimeMultipleire: 0.51
+    - _UVSec: 0
+    - _WaveIntensity: 0.014
+    - _ZWrite: 1
+    - _depth: 0.63
+    - _height: 0.58
+    - _inclination: 2.05
+    - _leght: 1.1
+    - _node_1024: 187.6
+    - _node_1706: 0.98
+    - _node_3900: 1
+    - _node_6783: 1
+    - _node_6908: 0.648
+    - _node_9478: 0.49
+    - _node_9478_copy: 1.22
+    - _node_9905: 0.47
+    - _sin: 0.12
+    - _sinMultiplier: 0.76
+    m_Colors:
+    - _Color: {r: 0, g: 0.39603996, b: 1, a: 1}
+    - _DepthColor: {r: 0, g: 0.3968253, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamCollor: {r: 0, g: 1, b: 0.7390704, a: 1}
+    - _Force: {r: 0, g: -10.4, b: 0, a: 0}
+    - _Point: {r: 0, g: 0, b: -155.89, a: 0}
+    - _node_1135: {r: 0.04563646, g: 0, b: 0.3584906, a: 1}
+    - _node_4264: {r: 1, g: 0, b: 0, a: 1}
+    - _node_8579: {r: 1, g: 0, b: 0, a: 1}

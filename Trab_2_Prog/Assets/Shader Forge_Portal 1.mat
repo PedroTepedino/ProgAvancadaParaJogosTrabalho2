@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Forge_Portal 1
+  m_Shader: {fileID: 4800000, guid: 8269c7445304f884a851fb6e17029b1a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 8400000, guid: 2841654bc48558941acb2a4cbbaa67b3, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_2037:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_4734:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_8767:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _Radius: 0.96
+    - _Thickness: 0.03
+    - _node_2303: 10
+    - _node_4806: 20
+    - _node_4992: 5.4
+    - _node_6117: 0
+    - _node_7672: 0
+    - _node_8878: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _RingColor: {r: 0, g: 0.3821988, b: 1, a: 1}
+    - _RingColor_copy: {r: 0, g: 2.8563468, b: 3.9533494, a: 1}
+    - _node_9205: {r: 0, g: 0, b: 0, a: 1}
+    - _node_9205_copy: {r: 1, g: 0, b: 0, a: 1}
