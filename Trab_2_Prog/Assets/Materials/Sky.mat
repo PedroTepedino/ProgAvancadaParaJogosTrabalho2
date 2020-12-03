@@ -27,10 +27,14 @@ Material:
         m_Texture: {fileID: 2800000, guid: 885c1c4427bb19f4fb47ef85923a2074, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _node_8772:
+        m_Texture: {fileID: 8900000, guid: 5ca7b4a20440a8b4ebbe390ea48deecc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _node_5751: 0.7
     - _node_7813: 0
     m_Colors:
-    - _Color: {r: 0.17825231, g: 0, b: 0.4528302, a: 1}
-    - _node_4111: {r: 0.13145106, g: 0, b: 0.2830189, a: 1}
+    - _Color: {r: 0.910134, g: 0.6462264, b: 1, a: 1}
+    - _node_4111: {r: 0, g: 0.360718, b: 1, a: 1}
     - _node_6371: {r: 0, g: 0, b: 0, a: 1}
