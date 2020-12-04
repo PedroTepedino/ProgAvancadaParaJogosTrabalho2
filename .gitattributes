@@ -2,3 +2,4 @@ Libertary[[:space:]]SANS.asset filter=lfs diff=lfs merge=lfs -text
 LiberationSans[[:space:]]SDF.asset filter=lfs diff=lfs merge=lfs -text
 Assets/Fonts/*.asset filter=lfs diff=lfs merge=lfs -text
 Trab_2_Prog/Assets/Fonts/*.asset filter=lfs diff=lfs merge=lfs -text
+Trab_2_Prog/Assets/Scenes/Scifi_City/LightingData.asset filter=lfs diff=lfs merge=lfs -text

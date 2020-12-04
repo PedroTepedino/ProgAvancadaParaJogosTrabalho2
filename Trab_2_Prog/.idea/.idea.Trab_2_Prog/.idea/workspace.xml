@@ -23,18 +23,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Trab_2_Prog/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Trab_2_Prog/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Trab_2_Prog/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Trab_2_Prog/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Trab_2_Prog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Trab_2_Prog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ArtResources/Station/Materials/Palletes/base color.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ArtResources/Station/Materials/Palletes/base color.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ArtResources/Station/Materials/Snow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ArtResources/Station/Materials/Snow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ArtResources/Station/Materials/glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ArtResources/Station/Materials/glass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ArtResources/Station/Materials/window.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ArtResources/Station/Materials/window.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ikari/Vertex Painter/Scripts/Editor/InternalResources/Data/IVPData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Ikari/Vertex Painter/Scripts/Editor/InternalResources/Data/IVPData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/hualikana SDF 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/hualikana SDF 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/hualikana SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/hualikana SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scifi_City.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scifi_City.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sea.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sea.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/BasicShader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/BasicShader.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Glass.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Glass.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Plants.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Plants.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scifi_City_Profiles/GlobalPostProcessing Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scifi_City_Profiles/GlobalPostProcessing Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +44,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/MonitorTextAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveSeaForcePoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
       </list>
     </option>
   </component>
@@ -105,6 +101,7 @@
       <workItem from="1605569686761" duration="6000" />
       <workItem from="1605648169790" duration="973000" />
       <workItem from="1605935252321" duration="137000" />
+      <workItem from="1606983075335" duration="2509000" />
     </task>
     <servers />
   </component>

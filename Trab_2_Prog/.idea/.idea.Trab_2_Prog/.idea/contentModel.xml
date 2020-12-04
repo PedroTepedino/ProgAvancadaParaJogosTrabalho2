@@ -8,12 +8,20 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AditiveParticle.shader" t="Include" />
         <e p="basic.shader" t="Include" />
+        <e p="BasicParticle.shader" t="Include" />
+        <e p="Core.shader" t="Include" />
         <e p="depth.shader" t="Include" />
         <e p="DistortionSphere.shader" t="Include" />
+        <e p="FogParticle.shader" t="Include" />
         <e p="ForceField.shader" t="Include" />
+        <e p="glass2.shader" t="Include" />
+        <e p="LineRenderer.shader" t="Include" />
+        <e p="LineShader.shader" t="Include" />
         <e p="NewSea.shader" t="Include" />
         <e p="NewShader.shader" t="Include" />
+        <e p="noTrasanpoarentShaddows.shader" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DemiLib" t="Include">
@@ -721,9 +729,11 @@
             </e>
           </e>
         </e>
+        <e p="Portal.shader" t="Include" />
         <e p="Scripts" t="Include">
           <e p="MonitorTextAnimation.cs" t="Include" />
           <e p="MoveSeaForcePoint.cs" t="Include" />
+          <e p="Timer.cs" t="Include" />
         </e>
         <e p="Sea 1.shader" t="Include" />
         <e p="Sea 2.shader" t="Include" />
@@ -740,6 +750,7 @@
           <e p="Screen.shader" t="Include" />
           <e p="SecurityCam.shader" t="Include" />
           <e p="Sky.shader" t="Include" />
+          <e p="ThorusHologram.shader" t="Include" />
           <e p="WarningProjector.shader" t="Include" />
         </e>
         <e p="tesselation.shader" t="Include" />
@@ -775,6 +786,8 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="transparet.shader" t="Include" />
+        <e p="UITESTE.shader" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
